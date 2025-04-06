@@ -3,10 +3,6 @@
 This project aims at showcasing some Deep Learning use cases in terms of image
 analysis, especially regarding semantic segmentation.
 
-If you want to get more details on Oslandia activities around this topic, feel
-free to visit our [blog](http://oslandia.com/en/blog/). You certainly want to
-discover some of our results in the
-associated [web application](http://data.oslandia.io/deeposlandia):
 
 # Content
 
@@ -35,7 +31,7 @@ in `requirements-dev.txt`.
 ### From source
 
 ```
-$ git clone https://github.com/Oslandia/deeposlandia
+$ git clone https://github.com/Thevanshgupta/semantic-segmentation-of-WMS-services-fina)
 $ cd deeposlandia
 $ virtualenv -p /usr/bin/python3 venv
 $ source venv/bin/activate
@@ -125,21 +121,6 @@ this image from this dataset is depicted below.
 
 ![Example of image, with labels and predictions](https://github.com/Oslandia/deeposlandia/raw/master/images/aerial_prediction_example.png)
 
-## Open AI Tanzania
-
-This dataset comes from
-the
-[Tanzania challenge](https://blog.werobotics.org/2018/08/06/welcome-to-the-open-ai-tanzania-challenge/),
-that took place at the autumn 2018. The dataset contains 13 labelled images (2
-of them were assigned to validation in this project), and 9 additional images
-for testing purpose. The image resolution is very high (6~8 cm per pixel), that
-allowing a fine data preprocessing step.
-
-In such a dataset, one tries to automatically detect building footprints by
-distinguishing complete buildings, incomplete buildings and foudations.
-
-![Example of image, with labels and predictions](https://github.com/Oslandia/deeposlandia/raw/master/images/tanzania_prediction_example.png)
-
 ## Shapes
 
 To complete the project, and make the test easier, a randomly-generated shape
@@ -158,15 +139,4 @@ If you want to contribute to the repo by adding a new dataset, please consult th
 This project implies non-commercial use of datasets, anyway we can work with
 the dataset emitters to get commercial licences if it fits your demand. May you
 be interested in any pre-trained models, please contact us at
-infos+data@oslandia.com!
 
-# License
-
-The program license is described in [LICENSE.md](./LICENSE.md).
-
-___
-
-Oslandia, April 2018
-=======
-# semantic-segmentation-of-WMS-services
->>>>>>> c2a9a20d3225d92a198f04e3bcda65f6816f1ca6
